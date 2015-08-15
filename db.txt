@@ -1,0 +1,10 @@
+create database rfid_hospital_tracking;
+use rfid_hospital_tracking;
+
+create table addusers(tag_id varchar(50) primary key,tag_user varchar(50),tag_type varchar(50),tag_location varchar(50));
+
+create table tag_permission(tag_id varchar(50),tag_location varchar(50));
+
+create table addpatient(pname varchar(50),illness varchar(50),gender varchar(20),address varchar(50));
+
+create table tracklocation(tag_id varchar(50) ,tag_user varchar(50),tag_type varchar(50),tag_location varchar(50),track_time timestamp,status varchar(50));

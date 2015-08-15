@@ -1,0 +1,5 @@
+1. create the database
+
+2. run the server application
+
+3. after performning the required operations at server side run the client application.
